@@ -1,0 +1,38 @@
+[
+    {
+        "device_id": "0x0C",
+        "fw_id": "0xFE",
+        "payload_id": "0x00",
+        "component": "environmental",
+        "decoding_schema": [
+            {
+                "telemetry": "temperature",
+                "type": "float"
+            },
+            {
+                "telemetry": "humidity",
+                "type": "float"
+            },
+            {
+                "telemetry": "pressure",
+                "type": "float"
+            }
+        ]
+    },
+    {
+        "device_id": "0x0C",
+        "fw_id": "0xFE",
+        "payload_id": "0x01",
+        "decoding_schema": [
+            {
+                "telemetry": "a_string_telemetry",
+                "type": "string",
+                "length": 5
+            },
+            {
+                "telemetry": "an_int8_telemetry",
+                "type": "uint8"
+            }
+        ]
+    }
+]
