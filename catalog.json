@@ -1,5 +1,6 @@
 [
     {
+        "description":"Quasar Environmental Monitor",
         "device_id": "0x0C",
         "fw_id": "0xFE",
         "payload_id": "0x00",
@@ -20,6 +21,23 @@
         ]
     },
     {
+        "description":"Quasar Seat Monitor",
+        "device_id": "0x09",
+        "fw_id": "0x09",
+        "payload_id": "0x00",
+        "decoding_schema": [
+            {
+                "telemetry": "battery",
+                "type": "uint8"
+            },
+            {
+                "telemetry": "presence",
+                "type": "uint8"
+            }
+        ]
+    },
+    {
+        "description":"Quasar Sample Monitor Node",
         "device_id": "0x0C",
         "fw_id": "0xFE",
         "payload_id": "0x01",
@@ -31,21 +49,6 @@
             },
             {
                 "telemetry": "an_int8_telemetry",
-                "type": "uint8"
-            }
-        ]
-    },
-    {
-        "device_id": "0x09",
-        "fw_id": "0x09",
-        "payload_id": "0x00",
-        "decoding_schema": [
-            {
-                "telemetry": "battery",
-                "type": "uint8"
-            },
-            {
-                "telemetry": "presence",
                 "type": "uint8"
             }
         ]
