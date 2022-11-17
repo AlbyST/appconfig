@@ -21,7 +21,7 @@
         ]
     },
     {
-        "description":"Quasar People Counter",
+        "description":"Quasar Presence Monitor",
         "device_id": "0x0C",
         "fw_id": "0xFF",
         "payload_id": "0x00",
