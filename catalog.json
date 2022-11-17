@@ -25,8 +25,8 @@
     },
     {
         "description":"Quasar Presence Monitor",
-        "device_id": "0x0C",
-        "fw_id": "0xFF",
+        "device_id": "0x0D",
+        "fw_id": "0x02",
         "payload_id": "0x00",
         "decoding_schema": [
             {
