@@ -72,6 +72,26 @@
         ]
     },
     {
+        "description":"Sample Environmental Monitor",
+        "device_id": "0x0C",
+        "fw_id": "0xFE",
+        "payload_id": "0x00",
+        "decoding_schema": [
+            {
+                "telemetry": "temperature",
+                "type": "float"
+            },
+            {
+                "telemetry": "humidity",
+                "type": "float"
+            },
+            {
+                "telemetry": "pressure",
+                "type": "float"
+            }
+        ]
+    }
+    {
         "description":"Quasar Sample Monitor Node",
         "device_id": "0x0C",
         "fw_id": "0xFE",
