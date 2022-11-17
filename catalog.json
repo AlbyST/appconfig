@@ -90,7 +90,7 @@
                 "type": "float"
             }
         ]
-    }
+    },
     {
         "description":"Quasar Sample Monitor Node",
         "device_id": "0x0C",
