@@ -2,7 +2,7 @@
     {
         "description":"Quasar Environmental Monitor",
         "device_id": "0x0C",
-        "fw_id": "0xFE",
+        "fw_id": "0x01",
         "payload_id": "0x00",
         "component": "environmental",
         "decoding_schema": [
