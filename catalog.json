@@ -37,6 +37,22 @@
         ]
     },
     {
+        "description":"Quasar Desk Monitor",
+        "device_id": "0x09",
+        "fw_id": "0x010",
+        "payload_id": "0x00",
+        "decoding_schema": [
+            {
+                "telemetry": "battery",
+                "type": "uint8"
+            },
+            {
+                "telemetry": "activity",
+                "type": "uint8"
+            }
+        ]
+    },
+    {
         "description":"Quasar Seat Monitor",
         "device_id": "0x09",
         "fw_id": "0x09",
