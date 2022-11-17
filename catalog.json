@@ -21,6 +21,22 @@
         ]
     },
     {
+        "description":"Quasar People Counter",
+        "device_id": "0x0C",
+        "fw_id": "0xFF",
+        "payload_id": "0x00",
+        "decoding_schema": [
+            {
+                "telemetry": "presence",
+                "type": "uint8"
+            },
+            {
+                "telemetry": "people_count",
+                "type": "int16"
+            }
+        ]
+    },
+    {
         "description":"Quasar Seat Monitor",
         "device_id": "0x09",
         "fw_id": "0x09",
