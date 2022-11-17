@@ -76,6 +76,7 @@
         "device_id": "0x0C",
         "fw_id": "0xFE",
         "payload_id": "0x00",
+        "component":"environmental",
         "decoding_schema": [
             {
                 "telemetry": "temperature",
