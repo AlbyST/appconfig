@@ -6,7 +6,11 @@
         "payload_id": "0x00",
         "decoding_schema": [
             {
-                "telemetry": "temperature",
+                "telemetry": "temperature_1",
+                "type": "float"
+            },
+            {
+                "telemetry": "temperature_2",
                 "type": "float"
             },
             {
