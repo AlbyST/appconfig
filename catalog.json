@@ -25,7 +25,7 @@
     },
     {
         "description":"Quasar People Counter",
-        "device_id": "0x0C",
+        "device_id": "0x0d",
         "fw_id": "0x02",
         "payload_id": "0x01",
         "decoding_schema": [
