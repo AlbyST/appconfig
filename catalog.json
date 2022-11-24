@@ -24,7 +24,7 @@
         ]
     },
     {
-        "description":"Quasar Presence Monitor",
+        "description":"Quasar People Counter",
         "device_id": "0x0D",
         "fw_id": "0x02",
         "payload_id": "0x00",
@@ -34,7 +34,7 @@
                 "type": "uint8"
             },
             {
-                "telemetry": "people_count",
+                "telemetry": "people_counter",
                 "type": "int16"
             }
         ]
