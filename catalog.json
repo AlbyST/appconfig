@@ -30,10 +30,6 @@
         "payload_id": "0x01",
         "decoding_schema": [
             {
-                "telemetry": "presence",
-                "type": "uint8"
-            },
-            {
                 "telemetry": "people_counter",
                 "type": "int8"
             }
