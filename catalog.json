@@ -68,6 +68,18 @@
         ]
     },
     {
+        "description":"Quasar Speech Monitor",
+        "device_id": "0x0d",
+        "fw_id": "0x03",
+        "payload_id": "0x01",
+        "decoding_schema": [
+            {
+                "telemetry": "speech_status",
+                "type": "int8"
+            }
+        ]
+    },
+    {
         "description":"Sample Environmental Monitor",
         "device_id": "0x0C",
         "fw_id": "0xFE",
