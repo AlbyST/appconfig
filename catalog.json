@@ -78,7 +78,7 @@
                 "type": "uint8"
             },
             {
-                "telemetry": "speech_status",
+                "telemetry": "audio_classification",
                 "type": "int8"
             }
         ]
