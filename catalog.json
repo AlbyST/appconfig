@@ -71,7 +71,7 @@
         "description":"Quasar Speech Monitor",
         "device_id": "0x0d",
         "fw_id": "0x03",
-        "payload_id": "0x01",
+        "payload_id": "0x00",
         "decoding_schema": [
             {
                 "telemetry": "speech_status",
