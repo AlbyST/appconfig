@@ -74,6 +74,10 @@
         "payload_id": "0x00",
         "decoding_schema": [
             {
+                "telemetry": "battery",
+                "type": "uint8"
+            },
+            {
                 "telemetry": "speech_status",
                 "type": "int8"
             }
