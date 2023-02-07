@@ -41,4 +41,4 @@ jobs:
           sudo rm -rf "/usr/local/share/boost"
           sudo rm -rf "$AGENT_TOOLSDIRECTORY"
           df
-          touch "ciao"
+          touch "test"
