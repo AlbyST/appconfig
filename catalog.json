@@ -102,7 +102,7 @@
     {
         "description":"Quasar TILT Monitor",
         "device_id": "0x09",
-        "fw_id": "0x12",
+        "fw_id": "0x0c",
         "payload_id": "0x00",
         "decoding_schema": [
             {
