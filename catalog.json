@@ -111,7 +111,7 @@
             },
             {
                 "telemetry": "tilt",
-                "type": "float"
+                "type": "uint8"
             }
         ]
     },
