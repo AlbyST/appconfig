@@ -137,6 +137,22 @@
         ]
     },
     {
+        "description":"MLC Human Activity Recognition (HAR)",
+        "device_id": "0x09",
+        "fw_id": "0xFF",
+        "payload_id": "0xFF",
+        "decoding_schema": [
+            {
+                "telemetry": "battery",
+                "type": "uint8"
+            },
+            {
+                "telemetry": "activity",
+                "type": "uint8"
+            }
+        ]
+    }
+    {
         "description":"Quasar Sample Monitor Node",
         "device_id": "0x0C",
         "fw_id": "0xFE",
