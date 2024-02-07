@@ -35,7 +35,7 @@
             },
             {
                 "telemetry": "total_count",
-                "type": "uint8"
+                "type": "int8"
             }
         ]
     },
