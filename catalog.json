@@ -56,6 +56,22 @@
         ]
     },
     {
+        "description":"Quasar BLE TEST Beacon",
+        "device_id": "0x09",
+        "fw_id": "0x09",
+        "payload_id": "0x01",
+        "decoding_schema": [
+            {
+                "telemetry": "counter",
+                "type": "uint16"
+            },
+            {
+                "telemetry": "battery",
+                "type": "uint8"
+            }
+        ]
+    },
+    {
         "description":"Quasar Desk Monitor",
         "device_id": "0x09",
         "fw_id": "0x010",
